@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{A6C16D90
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.TolmachevVV.Sprint0.V0", "Tyuiu.TolmachevVV.Sprint0.V0\Tyuiu.TolmachevVV.Sprint0.V0.vcxproj", "{DD45F6E3-EC36-49AA-9B0F-B1659133FC62}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{7A0D8E95-154E-4B14-A085-C594A900EC2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.TolmachevVV.Sprint0.Task1", "Tyuiu.TolmachevVV.Sprint0.Task1\Tyuiu.TolmachevVV.Sprint0.Task1.vcxproj", "{690CF316-0A01-4EB4-B047-0AE84CFF64DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -23,12 +27,21 @@ Global
 		{DD45F6E3-EC36-49AA-9B0F-B1659133FC62}.Release|x64.Build.0 = Release|x64
 		{DD45F6E3-EC36-49AA-9B0F-B1659133FC62}.Release|x86.ActiveCfg = Release|Win32
 		{DD45F6E3-EC36-49AA-9B0F-B1659133FC62}.Release|x86.Build.0 = Release|Win32
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Debug|x64.ActiveCfg = Debug|x64
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Debug|x64.Build.0 = Debug|x64
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Debug|x86.ActiveCfg = Debug|Win32
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Debug|x86.Build.0 = Debug|Win32
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Release|x64.ActiveCfg = Release|x64
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Release|x64.Build.0 = Release|x64
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Release|x86.ActiveCfg = Release|Win32
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DD45F6E3-EC36-49AA-9B0F-B1659133FC62} = {A6C16D90-2A9E-4EE4-BB89-585206E96DD3}
+		{690CF316-0A01-4EB4-B047-0AE84CFF64DB} = {7A0D8E95-154E-4B14-A085-C594A900EC2E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29CBEFC2-5C4D-4082-AF42-EE6E0BAD54E1}
