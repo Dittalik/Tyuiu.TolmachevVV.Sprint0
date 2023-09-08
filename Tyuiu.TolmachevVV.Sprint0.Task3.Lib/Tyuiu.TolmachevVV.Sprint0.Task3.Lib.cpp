@@ -3,8 +3,13 @@
 
 #include "pch.h"
 #include "framework.h"
+#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 // TODO: Это пример библиотечной функции.
-void fnTyuiuTolmachevVVSprint0Task3Lib()
+class Service:public ISprint0Task3
 {
-}
+	virtual int SummV3(int a, int b, int c) override
+	{
+		return a + b + c;
+	};
+};
