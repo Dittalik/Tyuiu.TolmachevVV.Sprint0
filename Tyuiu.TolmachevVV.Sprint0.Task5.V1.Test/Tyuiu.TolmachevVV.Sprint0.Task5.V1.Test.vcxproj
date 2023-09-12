@@ -20,12 +20,11 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{254CADB3-0BB1-4D53-9290-49D0C46B9927}</ProjectGuid>
+    <ProjectGuid>{843900B3-FA44-4916-BBB1-F9A32909DE8B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TyuiuTolmachevVVSprint0Task2Test</RootNamespace>
+    <RootNamespace>TyuiuTolmachevVVSprint0Task5V1Test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectSubType>NativeUnitTestProject</ProjectSubType>
-    <ProjectName>Tyuiu.TolmachevVV.Sprint0.Task2.V0.Test</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -163,15 +162,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tyuiu.TolmachevVV.Sprint0.Task2.V0.Test.cpp" />
+    <ClCompile Include="Tyuiu.TolmachevVV.Sprint0.Task5.V1.Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.TolmachevVV.Sprint0.Task2\Tyuiu.TolmachevVV.Sprint0.Task2.vcxproj">
-      <Project>{07015fb1-63a9-47ea-b771-b60ae4bd1d7c}</Project>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

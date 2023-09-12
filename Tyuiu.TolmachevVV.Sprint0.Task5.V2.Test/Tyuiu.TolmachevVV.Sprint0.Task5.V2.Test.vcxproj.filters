@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Tyuiu.TolmachevVV.Sprint0.Task2.V0.Test.cpp">
+    <ClCompile Include="Tyuiu.TolmachevVV.Sprint0.Task5.V2.Test.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">

@@ -12,7 +12,7 @@ namespace UnitTest1
 		
 		TEST_METHOD(TestMethod1)
 		{
-			ISprint0Task2V0* service = new Service();
+			ISprint0Task2V0* service = new ServiceV1();
 			int a = 3;
 			int b = 4;
 			int c;

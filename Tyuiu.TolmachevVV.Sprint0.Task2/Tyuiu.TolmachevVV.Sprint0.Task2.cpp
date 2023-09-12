@@ -2,19 +2,52 @@
 //
 
 #include <iostream>
+#include "../Tyuiu.TolmachevVV.Sprint0.Task2.Lib/Tyuiu.TolmachevVV.Sprint0.Task2.Lib.cpp"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    setlocale(LC_ALL, "Russian");
+
+    ISprint0Task2V0* serviceV1 = new ServiceV1();
+    std::cout << "Толмачев Виталий\n";
+    std::cout << "Task2.V0\n";
+    std::cout << std::endl;
+    std::cout << "Напишите число: ";
+    int a;
+    int b;
+    int c;
+    float a1;
+    std::cin >> a;
+    std::cout << "Напишите второе число число: ";
+    std::cin >> b;
+    std::cout << std::endl;
+    std::cout << "Сумма: " << serviceV1->Add(a, b);
+
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Task2.V1\n";
+    ISprint0Task2V1* serviceV2 = new ServiceV2();
+    std::cout << "Напишите первое дробное число: ";
+    std::cin >> a1;
+    std::cout << "Напишите второе целое число: ";
+    std::cin >> b;
+    std::cout << "Напишите третье целое число: ";
+    std::cin >> c;
+    std::cout << "Сумма: " << serviceV2->Summ(a1, b, c);
+
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Task2.V2\n";
+    ISprint0Task2V2* serviceV3 = new ServiceV3();
+    std::cout << "Напишите первое число: ";
+    std::cin >> a1;
+    std::cout << "Напишите второе число: ";
+    std::cin >> b;
+    std::cout << "Напишите третье число: ";
+    std::cin >> c;
+    std::cout << "Сумма: " << serviceV3->SummV2(a1, b, c);
+
 }
 
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.
